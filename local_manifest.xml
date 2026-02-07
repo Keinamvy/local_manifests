@@ -3,10 +3,16 @@
         <remote name="rem"
                 fetch="https://github.com" />
 
-        <project path="hardware/xiaomi" name="aosp-xiaomi/android_hardware_xiaomi" remote="rem" revision="15" clone-depth="1" />
-        <project path="device/xiaomi/sweet2" name="Keinamvy/android_device_xiaomi_sweet2" remote="rem" revision="lineage-22-yaap" clone-depth="1" />
-        <project path="device/xiaomi/sm6150-common" name="Keinamvy/android_device_xiaomi_sm6150-common" remote="rem" revision="lineage-22-yaap" clone-depth="1" />
-        <project path="vendor/xiaomi/sweet2" name="Lafactorial/android_vendor_xiaomi_sweet2" remote="rem" revision="lineage-22" clone-depth="1" />
-        <project path="vendor/xiaomi/sm6150-common" name="Keinamvy/android_vendor_xiaomi_sm6150-common" remote="rem" revision="lineage-22-yaap" clone-depth="1" />
-        <project path="kernel/xiaomi/sm6150" name="Lafactorial/kernel_xiaomi_sm6150" remote="rem" revision="lineage-22.1" clone-depth="1" />
+        <project path="hardware/xiaomi" name="yaap/hardware_xiaomi" remote="rem" revision="sixteen" clone-depth="1" />
+        <project path="packages/apps/Gamebar" name="Sachinpawar86/packages_apps_GameBar" remote="rem" revision="main" clone-depth="1" />
+        <project path="hardware/dolby" name="NothingHere69/hardware_dolby" remote="rem" revision="16" clone-depth="1" />
+        
+        <project path="device/xiaomi/sweet2" name="Keinamvy/android_device_xiaomi_sweet2" remote="rem" revision="yaap-16" clone-depth="1" />
+        <project path="device/xiaomi/sm6150-common" name="Keinamvy/android_device_xiaomi_sm6150-common" remote="rem" revision="yaap-16" clone-depth="1" />
+        
+        <project path="vendor/xiaomi/sweet2" name="MiDoNaSR545/vendor_xiaomi_sweet2" remote="rem" revision="lineage-23.1" clone-depth="1" />
+        <project path="vendor/xiaomi/sm6150-common" name="Lafactorial/android_vendor_xiaomi_sm6150-common" remote="rem" revision="lineage-23.2" clone-depth="1" />
+        <project path="vendor/xiaomi/sweet2-miuicamera" name="MiDoNaSR545/sweet2-miuicamera" remote="rem" revision="main" clone-depth="1" />
+        
+        <project path="kernel/xiaomi/sm6150" name="Keinamvy/android_kernel_xiaomi_sm6150qpr1" remote="rem" revision="test-noksu" clone-depth="1" />
 </manifest>
